@@ -1,0 +1,109 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .pricing-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  
+    @media (max-width: 1250px) {
+      flex-direction: column;
+      height: 100%;
+    }
+  }
+  
+  .pricing-plan1 {
+    border: 1px solid transparent;
+    border-style: groove;
+    margin: 1rem;
+    background-color: gainsboro;
+    width: 340px;
+    text-align: center;
+  }
+  
+  .pricing-plan2 {
+    border: 1px solid transparent;
+    border-style: groove;
+    margin: 1rem;
+    width: 340px;
+    background-color: gainsboro;
+    text-align: center;
+  }
+  
+  .pricing-plan3 {
+    border: 1px solid transparent;
+    border-style: groove;
+    margin: 1rem;
+    width: 340px;
+    background-color: gainsboro;
+    text-align: center;
+  }
+  
+  .pricing-plan1 > .plan-button {
+    background-color: orangered;
+    border: none;
+    border-radius: 5px;
+    border: none;
+    color: white;
+  }
+  
+  .pricing-plan2 > .plan-button {
+    background-color: orangered;
+    color: white;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .pricing-plan3 > .plan-button {
+    background-color: orangered;
+    border: none;
+    border-radius: 5px;
+    border: none;
+    color: white;
+  }
+  
+  .pricing-plan1 > .plan-price {
+    font-size: 30px;
+    font-weight: bolder;
+  }
+  
+  .pricing-plan2 > .plan-price {
+    font-size: 30px;
+    font-weight: bolder;
+  }
+  
+  .pricing-plan3 > .plan-price {
+    font-size: 30px;
+    font-weight: bolder;
+  }
+  
+  .pricing-plan1 > .plan-title-basic {
+    font-weight: bold;
+    padding-bottom: 8px;
+  }
+  
+  .pricing-plan2 > .plan-title {
+    font-weight: bold;
+    padding-bottom: 8px;
+  }
+  
+  .pricing-plan3 > .plan-title {
+    font-weight: bold;
+    padding-bottom: 8px;
+  }
+  
+  .pricing-plan1 > .plan-features > * {
+    padding: 1ch;
+  }
+  
+  .pricing-plan2 > .plan-features > * {
+    padding: 1ch;
+  }
+  
+  .pricing-plan3 > .plan-features > * {
+    padding: 1ch;
+  }
+  
